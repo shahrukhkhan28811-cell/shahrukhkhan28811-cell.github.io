@@ -13,6 +13,48 @@ ul{padding-left:22px}.notice{padding:15px;border-left:3px solid var(--red);backg
 a{color:#ff6673}footer{border-top:1px solid #292929;text-align:center;padding:24px;color:#999;font-size:13px}footer a{margin:0 8px}
 input,textarea{width:100%;padding:12px;background:#111;border:1px solid #555;border-radius:6px;color:white;margin:6px 0 14px}
 @media(max-width:600px){.nav{align-items:flex-start}.logo{font-size:17px}nav{gap:12px}.hero{padding:32px 20px}}
+
+/* VICE VERSE IMRAN — cinematic gaming makeover */
+:root{--bg:#05060b;--panel:rgba(13,15,24,.88);--red:#ff2948;--muted:#d0d2dc;--white:#fff}
+body{background:#05060b;position:relative;isolation:isolate}
+body::before{content:"";position:fixed;inset:0;z-index:-2;background:
+linear-gradient(180deg,rgba(3,4,10,.76),rgba(3,4,10,.82)),
+url('assets/gaming-bg.webp') center center/cover no-repeat;transform:scale(1.015)}
+body::after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;
+background:radial-gradient(ellipse at 15% 15%,rgba(255,25,65,.13),transparent 42%),
+radial-gradient(ellipse at 85% 65%,rgba(40,90,255,.12),transparent 45%)}
+header{background:rgba(5,6,12,.82);backdrop-filter:blur(16px);border-bottom:1px solid rgba(255,255,255,.12)}
+.nav{max-width:1160px}
+.logo{font-size:21px;text-shadow:0 0 22px rgba(255,40,70,.25)}
+nav a{font-weight:700;letter-spacing:.2px;padding:7px 9px;border-radius:6px}
+nav a:hover{background:rgba(255,41,72,.12)}
+main{max-width:1120px}
+.hero{position:relative;overflow:hidden;min-height:390px;display:flex;flex-direction:column;justify-content:center;
+background:linear-gradient(90deg,rgba(5,6,12,.94) 0%,rgba(5,6,12,.78) 48%,rgba(5,6,12,.18) 100%),
+url('assets/gaming-bg.webp') 58% center/cover no-repeat;border:1px solid rgba(255,70,100,.45);
+box-shadow:0 24px 80px rgba(0,0,0,.45),inset 0 0 55px rgba(255,30,70,.08)}
+.hero:after{content:"";position:absolute;inset:0;pointer-events:none;border-radius:inherit;
+box-shadow:inset 0 0 0 1px rgba(255,255,255,.07)}
+.tag{color:#ff8799;text-shadow:0 0 18px rgba(255,40,75,.55)}
+h1{letter-spacing:-1.8px;text-shadow:0 4px 28px rgba(0,0,0,.7)}
+h2{letter-spacing:-.5px;text-shadow:0 2px 18px rgba(0,0,0,.45)}
+.card{background:rgba(12,14,22,.82);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.13);
+box-shadow:0 12px 35px rgba(0,0,0,.25);transition:transform .2s,border-color .2s}
+.card:hover{transform:translateY(-4px);border-color:rgba(255,50,80,.55)}
+.btn{background:linear-gradient(135deg,#ff2445,#c90d32);box-shadow:0 7px 22px rgba(255,25,65,.23);
+border:1px solid rgba(255,255,255,.12);transition:transform .2s,filter .2s}
+.btn:hover{transform:translateY(-2px);filter:brightness(1.12);color:#fff}
+.btn.alt{background:rgba(5,6,12,.5);box-shadow:none}
+.notice{background:rgba(10,12,20,.82);backdrop-filter:blur(10px);border-left-color:#ff2948}
+input,textarea{background:rgba(8,10,17,.86);border-color:rgba(255,255,255,.2)}
+footer{background:rgba(5,6,12,.76);backdrop-filter:blur(10px);border-color:rgba(255,255,255,.12)}
+a{color:#ff8293}
+@media(max-width:600px){
+ .nav{gap:10px}.logo{font-size:18px}nav{gap:5px}nav a{font-size:13px;padding:6px}
+ main{padding:28px 16px 54px}.hero{min-height:370px;padding:30px 20px;background-position:62% center}
+}
+@media(prefers-reduced-motion:reduce){.card,.btn{transition:none}.card:hover,.btn:hover{transform:none}}
+
 </style></head><body><header><div class="nav"><div class="logo">VICE VERSE <span>IMRAN</span></div><nav>
     <a href="index.html">Home</a><a href="index.html#videos">Videos</a><a href="about.html">About</a>
     <a href="contact.html">Contact</a><a href="privacy-policy.html">Privacy</a></nav></div></header><main>
